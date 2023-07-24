@@ -1,0 +1,113 @@
+/* Efeitos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    font-family: Poppins;
+    font-weight: bold;
+}
+.topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px 15px 0px;
+    background-color:#2f86d6 ;    
+}
+.topo a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;         
+}
+.topo p{    
+    color: black;     
+}
+.topo h1{    
+    margin-right: 200px;
+}
+.topo div p{
+    color: white;
+}
+.logomenu{
+    height: 90px;
+    width: auto;
+    margin-right: 10px;       
+}
+.containertabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    table-layout: fixed; /* Força as células da tabela a terem a mesma largura */
+    border-collapse: collapse;
+    margin-bottom: 50px;    
+    padding: 100px 0px; 
+    margin: auto; 
+}
+.containertabela th{
+    padding: 20px 35px 20px 35px;
+}
+.containertabela td{
+    padding: 10px 0px;
+}
+.bg{
+    background-color: #f6f6f6;
+}
+.col-esquerda {
+    background-color: #f6f6f6;
+    text-align: left; /* Alinha o conteúdo da célula à esquerda */
+  }
+
+  .marcador-azul {
+    width: 10px;
+    height: 20px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 100%;    
+  }
+.container-rodape{
+    padding: 50px 50px 0px 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    line-height: 3rem;
+    background-color: #2f86d6;   
+}
+.txtlogordp{
+    flex-direction: column;
+    text-align: left;
+    padding-left: 10px;
+    line-height: 2rem;    
+}
+.txtlogordp p{
+    color: white;
+}
+.container-rodape img{
+    height: 100px;
+}
+.txtrdp{
+    text-align: center;
+    font-weight: bold;
+    line-height: 3rem;
+}
+.txtrdp{
+    text-align: center;
+    font-weight: bold;
+    line-height: 3rem;
+    background-color: #2f86d6;
+    color: aliceblue;
+    margin: 0;
+    padding-bottom: 50px;
+}
+.ttrdp{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+div p span{
+    color: #2f86d6;
+}
