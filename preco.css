@@ -1,4 +1,3 @@
-/* Efeitos Globais */
 * {
     margin: 0;
     padding: 0;
@@ -40,7 +39,7 @@ a{
     justify-content: center;
     align-items: center;
     text-align: center;
-    table-layout: fixed; /* Força as células da tabela a terem a mesma largura */
+    table-layout: fixed; 
     border-collapse: collapse;
     margin-bottom: 50px;    
     padding: 100px 0px; 
@@ -57,11 +56,11 @@ a{
 }
 .col-esquerda {
     background-color: #f6f6f6;
-    text-align: left; /* Alinha o conteúdo da célula à esquerda */
+    text-align: left; 
   }
 
   .marcador-azul {
-    width: 10px;
+    width: 20px;
     height: 20px;
     margin: auto;
     background-color: #2f86d6;
@@ -110,4 +109,44 @@ a{
 }
 div p span{
     color: #2f86d6;
+}
+
+.fade-in-botton {
+    position: relative;
+    overflow: hidden;
+    opacity: 0; 
+    transform: translateY(50px); 
+    transition: opacity 1s, transform 1s; 
+}
+.fade-in-botton.fade-in {
+    opacity: 1;
+    transform: translateX(0); 
+}
+
+@media (max-width: 767px) {
+    .topo {          
+        font-size: small; 
+        flex-wrap: wrap;
+        align-items: center;        
+      }
+    .topo img{
+       padding-left: 1px;
+    }      
+      .topo a {    
+      margin-right: 0;     
+      margin-bottom: 5px;
+      padding: 2px;
+      font-size: small;
+      }
+      
+      .tabela-responsive th,
+      .tabela-responsive td {
+        text-align: center; 
+        font-size: xx-small;
+        padding: 0;
+      }      
+      .marcador-azul {
+        width: 10px;
+        height: 10px;
+    }
 }
