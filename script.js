@@ -2,8 +2,8 @@ function isElementInViewport(el) {
     const rect = el.getBoundingClientRect();
     const windowHeight = window.innerHeight || document.documentElement.clientHeight;
     
-    // Adjust the threshold value (0.3) based on your preferences
-    return rect.top <= windowHeight * 0.3;
+    
+    return rect.top <= windowHeight * 0.6;
   }
   
   function onScroll() {
